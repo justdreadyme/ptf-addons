@@ -1,0 +1,35 @@
+#!/usr/bin/env python
+#####################################
+# Installation module for SMB Spider
+#####################################
+
+# AUTHOR OF MODULE NAME
+AUTHOR="T-S-A"
+
+# DESCRIPTION OF THE MODULE
+DESCRIPTION="This module will install/update SMB Spider (search for SMB/CIFS/Samba file shares)"
+
+# INSTALL TYPE GIT, SVN, FILE DOWNLOAD
+# OPTIONS = GIT, SVN, FILE
+INSTALL_TYPE="GIT"
+
+# LOCATION OF THE FILE OR GIT/SVN REPOSITORY
+REPOSITORY_LOCATION="https://github.com/T-S-A/smbspider"
+
+# WHERE DO YOU WANT TO INSTALL IT
+INSTALL_LOCATION="smbspider"
+
+# DEPENDS FOR DEBIAN INSTALLS
+DEBIAN="git"
+
+# DEPENDS FOR FEDORA INSTALLS
+FEDORA="git"
+
+# COMMANDS TO RUN AFTER
+AFTER_COMMANDS="pip install pysmb"
+
+# THIS WILL CREATE AN AUTOMATIC LAUNCHER FOR THE TOOL
+LAUNCHER="smbspider"
+
+# PREREQ INSTALL MODULES NEEDED FOR THIS TOOL TO WORK PROPERLY
+TOOL_DEPEND=""
