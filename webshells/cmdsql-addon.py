@@ -1,0 +1,32 @@
+#!/usr/bin/env python
+#####################################
+# Installation module for CMDSQL ~ ASPX Web Shell
+#####################################
+
+# AUTHOR OF MODULE NAME
+AUTHOR="NetSPI"
+
+# DESCRIPTION OF THE MODULE
+DESCRIPTION="This module will install/update CMDSQL - ASPX Web Shell"
+
+# INSTALL TYPE GIT, SVN, FILE DOWNLOAD
+# OPTIONS = GIT, SVN, FILE
+INSTALL_TYPE="GIT"
+
+# LOCATION OF THE FILE OR GIT/SVN REPOSITORY
+REPOSITORY_LOCATION="https://github.com/NetSPI/cmdsql"
+
+# WHERE DO YOU WANT TO INSTALL IT
+INSTALL_LOCATION="cmdsql"
+
+# DEPENDS FOR DEBIAN INSTALLS
+DEBIAN="git"
+
+# DEPENDS FOR FEDORA INSTALLS
+FEDORA="git"
+
+# COMMANDS TO RUN AFTER
+AFTER_COMMANDS=""
+
+# LAUNCHER
+LAUNCHER=""
