@@ -32,5 +32,7 @@ BYPASS_UPDATE="YES"
 AFTER_COMMANDS="cd {INSTALL_LOCATION},unzip -j -o PSTools.zip,rm PSTools.zip,updatedb,mkdir -p /usr/share/windows-resources/binaries/pstools/,rm Eula.txt,chmod +x *.exe,cp * /usr/share/windows-resources/binaries/pstools/"
 
 # THIS WILL CREATE AN AUTOMATIC LAUNCHER FOR THE TOOL
-LAUNCHER="pstools"
+LAUNCHER=""
 
+# PREREQ INSTALL MODULES NEEDED FOR THIS TOOL TO WORK PROPERLY
+TOOL_DEPEND=""

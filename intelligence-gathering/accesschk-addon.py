@@ -26,11 +26,14 @@ DEBIAN="curl,unzip"
 FEDORA="curl,unzip"
 
 # THIS WILL STILL RUN AFTER COMMANDS EVEN IF ITS ALREADY INSTALLED. USEFUL FOR FILE UPDATES AND WHEN NOT USING GIT OR OTHER APPLICATIONS THAT NEEDS AFTER COMMANDS EACH TIME
-BYPASS_UPDATE="YES"
+BYPASS_UPDATE="NO"
 
 # COMMANDS TO RUN AFTER
 AFTER_COMMANDS="cd {INSTALL_LOCATION},unzip -j -o AccessChk.zip,rm AccessChk.zip,updatedb,mv accesschk.exe accesschk32.exe,timeout 300 curl --progress -k -L -f "https://web.archive.org/web/20080530012252/http://live.sysinternals.com/accesschk.exe" > {INSTALL_LOCATION}/accesschk_v5.02.exe,rm Eula.txt,mkdir -p /usr/share/windows-resources/binaries/accesschk/,cp * /usr/share/windows-resources/binaries/accesschk/"
 
 # THIS WILL CREATE AN AUTOMATIC LAUNCHER FOR THE TOOL
-LAUNCHER="accesschk"
+LAUNCHER=""
+
+# PREREQ INSTALL MODULES NEEDED FOR THIS TOOL TO WORK PROPERLY
+TOOL_DEPEND=""
 

@@ -26,11 +26,13 @@ DEBIAN="curl,upx-ucl,unzip"
 FEDORA="curl,upx-ucl,unzip"
 
 # THIS WILL STILL RUN AFTER COMMANDS EVEN IF ITS ALREADY INSTALLED. USEFUL FOR FILE UPDATES AND WHEN NOT USING GIT OR OTHER APPLICATIONS THAT NEEDS AFTER COMMANDS EACH TIME
-BYPASS_UPDATE="YES"
+BYPASS_UPDATE="NO"
 
 # COMMANDS TO RUN AFTER
 AFTER_COMMANDS="cd {INSTALL_LOCATION},timeout 300 curl --progress -k -L -f "http://www.farbrausch.de/~fg/kkrunchy/kkrunchy_023a2.zip" > kkrunchy.zip,timeout 300 curl --progress -k -L -f "https://web.archive.org/web/20160313071633/http://www.eskimo.com/~scottlu/win/cexe.exe" > cexe.exe,updatedb,unzip -q -o kkrunchy.zip,rm kkrunchy.zip,chmod +x *.exe,mkdir -p /usr/share/windows-resources/binaries/packers/,cp * /usr/share/windows-resources/binaries/packers/"
 
 # THIS WILL CREATE AN AUTOMATIC LAUNCHER FOR THE TOOL
-LAUNCHER="packers"
+LAUNCHER=""
 
+# PREREQ INSTALL MODULES NEEDED FOR THIS TOOL TO WORK PROPERLY
+TOOL_DEPEND=""

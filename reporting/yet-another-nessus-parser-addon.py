@@ -31,5 +31,8 @@ BYPASS_UPDATE="NO"
 # COMMANDS TO RUN AFTER 
 AFTER_COMMANDS="cd {INSTALL_LOCATION}, updatedb && sed -i 's/if len(pluginid) != 5 or not pluginid.isdigit():/if (len(pluginid) != 5 and len (pluginid) != 6) or not pluginid.isdigit():/' {INSTALL_LOCATION}yanp.py"
 
-# create a launcher
-LAUNCHER="yanp"
+# THIS WILL CREATE AN AUTOMATIC LAUNCHER FOR THE TOOL
+LAUNCHER=""
+
+# PREREQ INSTALL MODULES NEEDED FOR THIS TOOL TO WORK PROPERLY
+TOOL_DEPEND=""

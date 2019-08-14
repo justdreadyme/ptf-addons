@@ -4,7 +4,7 @@
 #####################################
 
 # AUTHOR OF MODULE NAME
-AUTHOR=""
+AUTHOR="Dylan Ayrey (dxa4481)"
 
 # DESCRIPTION OF THE MODULE
 DESCRIPTION="This module will install/update WPA2 HalfHandshake Crack - Rogue AP for handshakes without an AP"
@@ -14,7 +14,7 @@ DESCRIPTION="This module will install/update WPA2 HalfHandshake Crack - Rogue AP
 INSTALL_TYPE="GIT"
 
 # LOCATION OF THE FILE OR GIT/SVN REPOSITORY
-REPOSITORY_LOCATION=""
+REPOSITORY_LOCATION="https://github.com/dxa4481/WPA2-HalfHandshake-Crack"
 
 # WHERE DO YOU WANT TO INSTALL IT
 INSTALL_LOCATION="wpa2-halfhandshake"
@@ -26,6 +26,10 @@ DEBIAN="git,python"
 FEDORA="git,python"
 
 # COMMANDS TO RUN AFTER
-AFTER_COMMANDS=""
+AFTER_COMMANDS="cd {INSTALL_LOCATION},python setup.py install"
 
+# THIS WILL CREATE AN AUTOMATIC LAUNCHER FOR THE TOOL
 LAUNCHER="wpa2-halfhandshake"
+
+# PREREQ INSTALL MODULES NEEDED FOR THIS TOOL TO WORK PROPERLY
+TOOL_DEPEND=""
