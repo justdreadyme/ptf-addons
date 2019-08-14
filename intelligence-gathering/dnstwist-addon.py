@@ -1,0 +1,38 @@
+#!/usr/bin/env python
+#####################################
+# Installation module for dnstwist
+#####################################
+
+# AUTHOR OF MODULE NAME
+AUTHOR="Marcin Ulikowski (elceef)"
+
+# DESCRIPTION OF THE MODULE
+DESCRIPTION="This module will install/update dnstwist ~ Detect type squatting, phishing, etc."
+
+# INSTALL TYPE GIT, SVN, FILE DOWNLOAD
+# OPTIONS = GIT, SVN, FILE
+INSTALL_TYPE="GIT"
+
+# LOCATION OF THE FILE OR GIT/SVN REPOSITORY
+REPOSITORY_LOCATION="https://github.com/elceef/dnstwist"
+
+# WHERE DO YOU WANT TO INSTALL IT
+INSTALL_LOCATION="dnstwist"
+
+# DEPENDS FOR DEBIAN INSTALLS
+DEBIAN="git,python3-dnspython,python3-geoip,python3-whois,python3-requests,python3-ssdeep"
+
+# DEPENDS FOR FEDORA INSTALLS
+FEDORA="git"
+
+# THIS WILL STILL RUN AFTER COMMANDS EVEN IF ITS ALREADY INSTALLED. USEFUL FOR FILE UPDATES AND WHEN NOT USING GIT OR OTHER APPLICATIONS THAT NEEDS AFTER COMMANDS EACH TIME
+BYPASS_UPDATE="NO"
+
+# COMMANDS TO RUN AFTER
+AFTER_COMMANDS=""
+
+# THIS WILL CREATE AN AUTOMATIC LAUNCHER FOR THE TOOL
+LAUNCHER=""
+
+# PREREQ INSTALL MODULES NEEDED FOR THIS TOOL TO WORK PROPERLY
+TOOL_DEPEND=""
