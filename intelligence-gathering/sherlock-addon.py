@@ -1,23 +1,23 @@
 #!/usr/bin/env python
 #####################################
-# Installation module for Winquisitor
+# Installation module for Sherlock
 #####################################
 
 # AUTHOR OF MODULE NAME
-AUTHOR="Mike Cardosa (doza)"
+AUTHOR="Rasta Mouse"
 
 # DESCRIPTION OF THE MODULE
-DESCRIPTION="This module will install/update Winquisitor - Privilege Escalation Checker" 
+DESCRIPTION="This module will install/update Sherlock - Privilege Escalation Checker via missing patches"
 
 # INSTALL TYPE GIT, SVN, FILE DOWNLOAD
 # OPTIONS = GIT, SVN, FILE
 INSTALL_TYPE="GIT"
 
 # LOCATION OF THE FILE OR GIT/SVN REPOSITORY
-REPOSITORY_LOCATION="https://github.com/doza/Winquisitor"
+REPOSITORY_LOCATION="https://github.com/rasta-mouse/Sherlock"
 
 # WHERE DO YOU WANT TO INSTALL IT
-INSTALL_LOCATION="winquisitor"
+INSTALL_LOCATION="sherlock"
 
 # DEPENDS FOR DEBIAN INSTALLS
 DEBIAN="git"
