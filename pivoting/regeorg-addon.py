@@ -29,6 +29,7 @@ FEDORA="git"
 BYPASS_UPDATE="NO"
 
 # CREATE LAUNCHER
+# cd {INSTALL_LOCATION},sudo python2 reGeorgSocksProxy.py
 LAUNCHER=""
 
 # COMMANDS TO RUN AFTER

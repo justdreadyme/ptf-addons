@@ -29,7 +29,7 @@ FEDORA="git"
 BYPASS_UPDATE="NO"
 
 # COMMANDS TO RUN AFTER
-AFTER_COMMANDS=""
+AFTER_COMMANDS="mkdir -p /usr/share/webshells/aspx/cmdsql/,cp {INSTALL_LOCATION}* /usr/share/webshells/aspx/cmdsql/"
 
 # THIS WILL CREATE AN AUTOMATIC LAUNCHER FOR THE TOOL
 LAUNCHER=""

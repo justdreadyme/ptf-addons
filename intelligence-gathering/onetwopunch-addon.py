@@ -35,5 +35,4 @@ AFTER_COMMANDS=""
 LAUNCHER=""
 
 # PREREQ INSTALL MODULES NEEDED FOR THIS TOOL TO WORK PROPERLY
-# TOOL_DEPEND="modules/vulnerability-analysis/nmap,modules/intelligence-gathering/unicornscan"
-
+TOOL_DEPEND=""

@@ -29,7 +29,7 @@ FEDORA="unzip"
 BYPASS_UPDATE="NO"
 
 # COMMANDS TO RUN AFTER
-AFTER_COMMANDS="cd {INSTALL_LOCATION},updatedb,unzip browser.zip,rm browser.zip"
+AFTER_COMMANDS="cd {INSTALL_LOCATION},updatedb,unzip browser.zip,rm browser.zip,mkdir -p /usr/share/webshells/jsp/jsp-filebrowser/,cp {INSTALL_LOCATION}* /usr/share/webshells/jsp/jsp-filebrowser/"
 
 # THIS WILL CREATE AN AUTOMATIC LAUNCHER FOR THE TOOL
 LAUNCHER=""
