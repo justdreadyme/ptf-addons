@@ -29,10 +29,9 @@ FEDORA="git"
 BYPASS_UPDATE="NO"
 
 # COMMANDS TO RUN AFTER
-AFTER_COMMANDS=""
+AFTER_COMMANDS="cd {INSTALL_LOCATION},virtualenv venv,/bin/bash -c 'source {INSTALL_LOCATION}/venv/bin/activate && pip3 install -r requirements.txt && deactivate',chown -R kali\:kali {INSTALL_LOCATION},chmod -R 0755 {INSTALL_LOCATION},echo '#!/bin/bash' > launcher,echo cd {INSTALL_LOCATION} >> launcher,echo source {INSTALL_LOCATION}/venv/bin/activate \&\& python shellconv.py \"\$\@\" \&\& deactivate >> launcher,chmod +x {INSTALL_LOCATION}/launcher,sudo ln -sf {INSTALL_LOCATION}/launcher /usr/local/bin/shellconv"
 
 # THIS WILL CREATE AN AUTOMATIC LAUNCHER FOR THE TOOL
-# cd {INSTALL_LOCATION}, sudo python2 shellconv.py
 LAUNCHER=""
 
 # PREREQ INSTALL MODULES NEEDED FOR THIS TOOL TO WORK PROPERLY
