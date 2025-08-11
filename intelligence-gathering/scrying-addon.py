@@ -4,7 +4,7 @@
 #####################################
 
 # AUTHOR OF MODULE NAME
-AUTHOR=""
+AUTHOR="NCC Group"
 
 # DESCRIPTION OF THE MODULE
 DESCRIPTION="This module will install/update scrying - Tool for collecting RDP, web and VNC screenshots all in one place"
@@ -41,4 +41,5 @@ LAUNCHER=""
 TOOL_DEPEND=""
 
 # DON'T RUN AFTER COMMANDS ON UPDATE
+
 BYPASS_UPDATE="YES"
