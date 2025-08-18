@@ -32,6 +32,7 @@ FEDORA="git"
 ARCHLINUX=""
 
 # COMMANDS TO RUN AFTER
+# NOTE: You need to use the App Store once with the Apple ID on any iOS device before you can use it with ipatool
 AFTER_COMMANDS="cd {INSTALL_LOCATION},go build -o ipatool,chown -R kali\:kali {INSTALL_LOCATION},chmod -R 0755 {INSTALL_LOCATION},chmod +x {INSTALL_LOCATION}/ipatool,sudo ln -sf {INSTALL_LOCATION}/ipatool /usr/local/bin/ipatool"
 
 # THIS WILL CREATE AN AUTOMATIC LAUNCHER FOR THE TOOL
@@ -41,4 +42,5 @@ LAUNCHER=""
 TOOL_DEPEND=""
 
 # DON'T RUN AFTER COMMANDS ON UPDATE
+
 BYPASS_UPDATE="YES"
