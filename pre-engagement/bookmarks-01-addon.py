@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #####################################
-# Installation module for Bookmarks 01 ~ Bookmarks Collection
+# Installation module for Bookmarks 01 ~ The Book of Secret Knowledge
 #####################################
 
 # AUTHOR OF MODULE NAME
