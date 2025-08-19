@@ -7,7 +7,7 @@
 AUTHOR="trimstray"
 
 # DESCRIPTION OF THE MODULE
-DESCRIPTION="This module will install/update Bookmarks 01 ~ Bookmarks Collection"
+DESCRIPTION="This module will install/update Bookmarks 01 ~ The Book of Secret Knowledge"
 
 # INSTALL TYPE GIT, SVN, FILE DOWNLOAD
 # OPTIONS = GIT, SVN, FILE
